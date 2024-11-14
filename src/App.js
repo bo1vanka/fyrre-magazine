@@ -1,24 +1,19 @@
 import logo from './logo.svg';
-import './App.css';
+import Header from './components/Header/Header.jsx';
+import BigLogo from './components/BigLogo/logo.jsx';
+import Newsticker from './components/Newsticker/Newsticker.jsx';
+import './styles/App.css';
+import './styles/media.css';
+import './styles/normalize.css';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <> 
+    <Header/>
+    <BigLogo/>
+    <Newsticker/>
+    </>
   );
 }
 

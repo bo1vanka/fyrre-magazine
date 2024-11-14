@@ -1,0 +1,33 @@
+.marqueeText{
+    color:  #ffffff !important;
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: #000000;
+    flex-direction: row;
+    
+}
+.marqueeContent{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+.marqueeText{
+    height: 70px;
+    display: flex;
+    align-items: center;
+}
+.firstText{
+    padding-left: 20px;
+    padding-right: 24px;
+    font-weight: 600;
+    font-size: 22px;
+    width: 195px;
+    height: 30px;
+}
+.scrollContainer{
+   padding-left: 80px;
+   padding-right: 80px;
+   padding-top: 47px;
+   height: 70px;
+}

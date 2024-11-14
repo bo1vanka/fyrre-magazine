@@ -1,0 +1,38 @@
+ *{
+  font-family:  'GeneralSans', sans-serif; 
+ }
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('/src/assets/fonts/GeneralSans-Medium.woff2') format('woff2');
+  font-weight: 500; /* Medium */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('/src/assets/fonts/GeneralSans-Regular.woff2') format('woff2');
+  font-weight: 400; /* Regular */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'GeneralSans';
+  src: url('/src/assets/fonts/GeneralSans-Semibold.woff2') format('woff2');
+  font-weight: 600; /* Semibold */
+  font-style: normal;
+}
+:root{
+  --white: #ffff;  
+  --black: #000000; 
+  --GSS: 'GeneralSans', sans-serif;
+ 
+}
+li{
+  list-style-type: none;
+ }
+ a{
+  text-decoration: none; 
+  
+ }
+ 
